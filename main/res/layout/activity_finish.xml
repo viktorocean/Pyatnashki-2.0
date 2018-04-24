@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/winner"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="60sp"
+        android:textStyle="bold|italic" />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/restart"
+        android:id="@+id/restart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Restart"/>
+    <Button
+        android:text="@string/exite"
+        android:id="@+id/exite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Exite"/>
+
+</LinearLayout>
